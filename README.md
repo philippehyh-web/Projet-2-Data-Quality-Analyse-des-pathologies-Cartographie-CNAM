@@ -43,6 +43,23 @@ Ces jeux de données sont gratuits, réutilisables et régulièrement mis à jou
 
 ## 💡 Ce que répond ce projet
 
+🏥 Analyse des pathologies chroniques en France (CNAM)
+
+Contexte : Ce projet vise à cartographier et analyser l'évolution des principales pathologies chroniques en France à partir des données de l'Assurance Maladie (CNAM). L'objectif est de mettre en évidence les tendances d'effectifs et les coûts associés pour le système de santé.
+
+Lecture des données avec les outils suivants :  
+ - Power Query : Nettoyage des données, gestion des types et des erreurs de formatage.
+
+ - Power BI & DAX : Modélisation relationnelle, création de mesures analytiques (KPIs) et conception d'un tableau de bord interactif.
+
+Aperçu du Tableau de Bord (Le Top 3 des pathologies les plus fréquentes en France (ex: traitements antihypertenseurs, diabète, etc.).
+
+<img width="1152" height="678" alt="Dashbord" src="https://github.com/user-attachments/assets/1b9e438a-a4e0-4d1f-a639-bae01a564ecc" />
+
+Principaux tableaux affichées (Insights) :
+
+L'analyse temporelle révèle une hausse constante du nombre de patients pris en charge depuis 2015, marquée par une nette accélération à partir de 2020. Cette tendance confirme l'augmentation continue du poids des pathologies chroniques sur le système de santé français.
+
 **Pourquoi commencer par un audit qualité plutôt que directement par l'analyse ?**
 Réponse : Les données de santé publique contiennent des codes de confidentialité (secret statistique) et des changements de nomenclature d'une année sur l'autre. Ignorer ces spécificités fausse les moyennes et les comparaisons. Un bon data analyst sécurise d'abord la fiabilité du chiffre avant de le communiquer.
 
@@ -69,3 +86,5 @@ pip install pandas numpy matplotlib
 
 - Croiser ces indicateurs avec les données de mortalité (INSEE/CépiDc) pour enrichir l'analyse
 - Passer à un projet de modélisation prédictive (voir projet santé n°2 : prédiction de réadmission hospitalière)
+
+Aperçu du code python : 
