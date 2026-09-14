@@ -86,5 +86,3 @@ pip install pandas numpy matplotlib
 
 - Croiser ces indicateurs avec les données de mortalité (INSEE/CépiDc) pour enrichir l'analyse
 - Passer à un projet de modélisation prédictive (voir projet santé n°2 : prédiction de réadmission hospitalière)
-
-Aperçu du code python : 
